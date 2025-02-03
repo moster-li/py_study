@@ -7,9 +7,9 @@ import sys
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # 文件路径
-INFO_FILE = "D:\\py_project\\student_system\\info"
-STUDENTS_FILE = "D:\\py_project\\student_system\\students.json"
-ADMIN_ACCOUNT = "230341320"
+INFO_FILE = "D:\\py_project\\student_system\\info"#请替换为实际文件路径
+STUDENTS_FILE = "D:\\py_project\\student_system\\students.json"#请替换为实际文件路径
+ADMIN_ACCOUNT = "230341320"#管理员账号
 ADMIN_PASSWORD = "230341320"
 
 class Student:
